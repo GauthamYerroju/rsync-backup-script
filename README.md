@@ -1,4 +1,4 @@
-# Rsync Backup for Linux Home Directory
+# Rsync Backup Script
 
 Simple script to mirror relevant folders in home directory to external drive. This is the core functionality of an automated backup solution I wanted for a long long time. After much thought (of using much more complicated tools), I decided on simplicity, meaning:
 
@@ -6,8 +6,9 @@ Simple script to mirror relevant folders in home directory to external drive. Th
 - NTFS-compatible (back up to external HDD, also for use in Windows)
 - Portable script with least possible dependencies
 
-So I came up with this script, which runs off of pure rsync and basic bash commands. Some "features":
+I found a [great article on using rsync with NTFS drives](https://ubuntuforums.org/showthread.php?t=820425). With that as the starting point and some Googling, I came up with this script. Some "features":
 
+- Runs off of just rsync and basic bash commands, no other dependencies
 - Runs without sudo, for current user
 - Within destination directory, creates separate folders for each hostname+username+userID (in case multiple users back up to the same destination, and for easy identification after OS reinstalls)
 - Simple file-based backup for easy restore
