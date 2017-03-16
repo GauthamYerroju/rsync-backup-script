@@ -1,0 +1,15 @@
++ AndroidStudioProjects
++ Desktop
++ Dev
++ Documents
++ Downloads
+- Music
++ Pictures
+- Private
++ Scripts
++ UNR
++ Videos
+
+- **/.directory
+- **/node_modules/
+- /*
