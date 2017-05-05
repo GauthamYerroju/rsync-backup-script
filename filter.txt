@@ -3,12 +3,14 @@
 + Dev
 + Documents
 + Downloads
-- Music
 + Pictures
-- Private
 + Scripts
 + UNR
 + Videos
+
+- Private
+- Music
+
 
 - **/.directory
 - **/node_modules/
