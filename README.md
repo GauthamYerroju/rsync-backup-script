@@ -75,7 +75,7 @@ Performs the actual backup. __Optional__. Running without -c will do a dry run.
 4. Do an actual run by adding -c: `bash rsyncHome.sh -s "{source_path}" -d "{destination_path}" -c`
 5. Optionally, add it as a cron job with preferred frequency
 
-# TODO:
+# TODO
 
 - Some solution to backup encrypted files
 - Create non-backup 2-way variant for Music directory
