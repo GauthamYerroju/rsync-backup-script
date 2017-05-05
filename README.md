@@ -81,3 +81,4 @@ Performs the actual backup. __Optional__. Running without -c will do a dry run.
 - Create non-backup 2-way variant for Music directory
 - DONE ~~Commandline option for dry-running~~
 - DONE ~~Commandline option for source and dest (and possibly other params)~~
+- DONE ~~Add safety checks for source and destination paths (should exist, source shoulr be readable and destination should be writable)~~
