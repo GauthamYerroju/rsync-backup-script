@@ -10,15 +10,15 @@ I found a [great article on using rsync with NTFS drives](https://ubuntuforums.o
 
 ## Features
 
+- Simple file-based backup for easy restore
+- NTFS compatible
+- Automatic backup of old versions and deleted files
+  - Auto-delete backups older than 30 days
 - Runs off of just rsync and basic bash commands, no other dependencies
 - Runs without sudo, for current user
 - Safe: only does a dry run by default
 - Within destination directory, creates separate folders for each hostname+username+userID (in case multiple users back up to the same destination, and for easy identification after OS reinstallation)
 - Detailed logs saved in backup folder
-- Simple file-based backup for easy restore
-- NTFS compatible
-- Backups old versions and deleted files
-  - Delete backups older than 30 days
 
 ## Options
 
@@ -33,7 +33,7 @@ Mind the trailing slash (refer to how rsync handles trailing slashes).
 
 ### 2. Destination (-d)
 
-The destination path __Mandatory__.
+The destination path. __Mandatory__.
 - Should be an absolute path
 - Should not be a symlink
 
